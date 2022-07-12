@@ -17,7 +17,7 @@
         <TextField fx:id="txtName" layoutX="46.0" layoutY="150.0" prefHeight="25.0" prefWidth="256.0" promptText="Student Name" />
         <TextField fx:id="txtAddress" layoutX="46.0" layoutY="261.0" prefHeight="25.0" prefWidth="256.0" promptText="Address" />
         <TextField fx:id="txtNic" layoutX="46.0" layoutY="298.0" prefHeight="25.0" prefWidth="256.0" promptText="Student NIC" />
-        <Button layoutX="105.0" layoutY="343.0" mnemonicParsing="false" onAction="#SaveStudentOnAction" prefHeight="25.0" prefWidth="112.0" text="Save Customer" />
+        <Button layoutX="105.0" layoutY="343.0" mnemonicParsing="false" onAction="#SaveStudentOnAction" prefHeight="25.0" prefWidth="112.0" text="Save Student" />
       <TextField fx:id="txtEmail" layoutX="46.0" layoutY="188.0" prefHeight="25.0" prefWidth="256.0" promptText="E-mail" />
       <TextField fx:id="txtContact" layoutX="46.0" layoutY="224.0" prefHeight="25.0" prefWidth="256.0" promptText="Contact" />
     </children>

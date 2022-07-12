@@ -20,7 +20,12 @@ public class DashBoardFormController {
         stage.show();
     }
 
-    public void openTeacherSaveForm(ActionEvent actionEvent) {
+    public void openTeacherSaveForm(ActionEvent actionEvent) throws IOException {
+        Parent load = FXMLLoader.load(getClass().getResource("../views/TeacherSaveForm.fxml"));
+        Scene scene = new Scene(load);
+        Stage stage = new Stage();
+        stage.setScene(scene);
+        stage.show();
     }
 
     public void openSubjectSaveForm(ActionEvent actionEvent) {
