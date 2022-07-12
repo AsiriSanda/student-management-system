@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="DashBoardFormContext" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashBoardFormController">
+   <children>
+      <Label layoutX="122.0" layoutY="27.0" prefHeight="36.0" prefWidth="356.0" text="Student Management System" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font></Label>
+      <Button layoutX="233.0" layoutY="112.0" mnemonicParsing="false" onAction="#openStudentSaveForm" text="Add Student">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="233.0" layoutY="152.0" mnemonicParsing="false" onAction="#openTeacherSaveForm" text="Add Teacher">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="233.0" layoutY="188.0" mnemonicParsing="false" onAction="#openSubjectSaveForm" text="Add Subject">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="233.0" layoutY="222.0" mnemonicParsing="false" onAction="#openCourseSaveForm" text="Add Course">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="233.0" layoutY="255.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="78.0" text="Intake">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="231.0" layoutY="294.0" mnemonicParsing="false" text="Registration">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="233.0" layoutY="334.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="78.0" text="Payment">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
